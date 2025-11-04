@@ -14,7 +14,9 @@ The engine employs TF-IDF, cosine similarity, and matrix factorization technique
 ## System Architecture
 The system follows a three-tier architecture:
 1.Data Layer – Dataset management and preprocessing
+
 2.Processing Layer – Machine learning models and recommendation algorithms
+
 3.Presentation Layer – Streamlit-based user interface
 
 ## Recommendation Algorithms
@@ -47,16 +49,23 @@ Workflow:
 ## User Interface Design
 Technology Stack:
 -Framework: Streamlit
+
 -Styling: Custom CSS with gradients
+
 -Serialization: Pickle for model persistence
 
-Interface Components
+Interface Components:
 -Landing Page
+
 -Title-Based Search Page
+
 -Personalized Recommendations Page
 
 ## Tools and Technologies
 -Programming Language: Python
+
 -Libraries: Pandas, NumPy, Scikit-learn, SciPy, Pickle
+
 -Framework: Streamlit
+
 -Version Control: Git, GitHub
