@@ -7,12 +7,16 @@ The engine employs TF-IDF, cosine similarity, and matrix factorization technique
 
 ## Objectives
 1. Develop a machine learning-based system to recommend personalized news articles.
+ 
 2. Implement NLP techniques for text processing and feature extraction.
+  
 3. Use TF-IDF and cosine similarity for content-based recommendations.
+  
 4. Provide users with an efficient, personalized news discovery platform.
 
 ## System Architecture
 The system follows a three-tier architecture:
+
 1.Data Layer – Dataset management and preprocessing
 
 2.Processing Layer – Machine learning models and recommendation algorithms
@@ -21,33 +25,56 @@ The system follows a three-tier architecture:
 
 ## Recommendation Algorithms
 1. Content-Based Filtering
+ 
 Technique: TF-IDF + Cosine Similarity
+
 Workflow:
+
 -Vectorize article titles into TF-IDF features
+
 -Compute cosine similarity between articles
+
 -Rank and retrieve top-N most similar articles
 
+
 2. Collaborative Filtering (Matrix Factorization)
+
 Technique: Singular Value Decomposition (SVD)
+
 Workflow:
+
 -Construct user–item rating matrix
+
 -Apply SVD to extract latent features
+
 -Predict missing ratings
+
 -Recommend articles with the highest predicted scores
 
+
 3. Hybrid Recommendation Model
+   
 Technique: Weighted fusion of content and user behavior
+
 Workflow:
+
 -Fetch user's read articles
+
 -Compute combined weight:
+
 -α = 0.7 (rating importance)
+
 -β = 0.3 (time spent importance)
+
 -Aggregate weighted similarity scores
+
 -Exclude already read articles
+
 -Return top-N recommendations
 
 ## User Interface Design
 Technology Stack:
+
 -Framework: Streamlit
 
 -Styling: Custom CSS with gradients
@@ -55,6 +82,7 @@ Technology Stack:
 -Serialization: Pickle for model persistence
 
 Interface Components:
+
 -Landing Page
 
 -Title-Based Search Page
