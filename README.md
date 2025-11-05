@@ -23,6 +23,8 @@ The system follows a three-tier architecture:
 
 3.Presentation Layer – Streamlit-based user interface
 
+<img width="446" height="348" alt="image" src="https://github.com/user-attachments/assets/0ea5a984-2441-4432-bcaf-4c2278abe31a" />
+
 ## Recommendation Algorithms
 1. Content-Based Filtering
  
@@ -97,3 +99,9 @@ Interface Components:
 -Framework: Streamlit
 
 -Version Control: Git, GitHub
+
+<img width="467" height="223" alt="image" src="https://github.com/user-attachments/assets/5429b36e-e562-430a-be8f-93a9866e4c79" />
+<img width="469" height="207" alt="image" src="https://github.com/user-attachments/assets/682d0696-3bc8-4c2a-9871-2b293752a69a" />
+<img width="467" height="209" alt="image" src="https://github.com/user-attachments/assets/05c81072-5cf1-4e39-85d2-541e7a7ad76b" />
+<img width="469" height="314" alt="image" src="https://github.com/user-attachments/assets/ad115b98-2e12-430b-be9e-fc0f5075bcac" />
+
