@@ -1,4 +1,4 @@
-## Personalized News Recommendation Engine
+## NewsSense - Personalized News Recommendation Engine
 
 ## Overview
 
